@@ -1,0 +1,106 @@
+<!-- Including the menu with an ID for the about page -->
+{{> menu id="about"}}
+
+<!-- Main section for the About page -->
+<section class="ui center aligned middle aligned segment">
+  <!-- About page header -->
+  <h2>All England Open Badminton Championships App Creator and Location:</h2>
+  
+  <!-- Container for the photo cards -->
+  <div class="cards-container">
+    
+    <!-- First photo card for the app creator -->
+    <div class="ui-card"> <!-- First Photo Card -->
+      <!-- Creator's photo -->
+      <img src="https://cdn.glitch.global/e799acfb-e8fc-483d-a90e-2ac7ba0e364a/35EE817D-BD0C-498F-8404-AA3045C914B6_1_105_c.jpeg?v=1708812520246" class="card-image">
+      
+      <!-- Card content for the creator -->
+      <div class="card-content">
+        <div class="card-title">Yi Jie Lim</div>
+        <p class="card-description">Joined in 2024</p>
+        <p class="card-description">Yi Jie is a Web Developer in 5, Jalan Anggerik Disa 31/184D, Alam Kemuning Seksyen 31, 40460 Shah Alam, Malaysia.</p>
+      </div>
+    </div>
+    
+    <!-- Second photo card for the home address -->
+    <div class="ui-card"> <!-- Second Photo Card -->
+      <!-- Home address image -->
+      <img src="https://cdn.glitch.global/e799acfb-e8fc-483d-a90e-2ac7ba0e364a/Screenshot%202024-02-24%20at%2022.03.23.png?v=1708812285198" class="card-image">
+      
+      <!-- Card content for the home address -->
+      <div class="card-content">
+        <div class="card-title">Home Address</div>
+      </div>
+    </div>
+  </div>
+  
+  <h2>All Users Statistics: </h2>
+  <div class="ui center aligned grid">
+    <div class="twenty wide column">
+      
+        <div class="ui centered two statistics">
+          <div class="statistic">
+            <div class="value">
+              <i class="red universal access icon"></i> 
+            </div>
+            <div class="label">
+              Total {{displayAllNumCollections}} Collections
+            </div>
+          </div>
+
+          <div class="statistic">
+            <div class="value">
+              <i class="orange address book icon"></i> 
+            </div>
+            <div class="label">
+              Total {{displayAllNumMedalists}} Medalists
+            </div>
+          </div>    
+       </div>
+    </div>
+  </div>
+  <div class="ui center aligned grid">
+    <div class="twenty wide column">
+      
+      <div class="ui centered one statistics">
+         <div class="statistic">
+            <div class="value">
+              <i class="yellow chart bar icon"></i> 
+            </div>
+            <div class="label">
+              {{displayAllAveMedalistsinCollections}} average medalists in the collection
+            </div>
+          </div>  
+      </div>
+    </div>
+  </div>
+
+<div class="ui center aligned grid">
+    <div class="twenty wide column">
+      
+        <div class="ui centered two statistics">
+          <div class="statistic">
+            <div class="value" style="color: blue">
+              5,550
+            </div>
+            <div class="label" style="color: blue">
+              Downloads
+            </div>
+          </div>
+
+          <div class="ui statistic">
+            <div class="value" style="color: green">
+              40359
+            </div>
+            <div class="label" style="color: green">
+              Visits
+            </div>
+          </div>   
+       </div>
+    </div>
+  </div>
+  
+</section>
+  
+  
+ 

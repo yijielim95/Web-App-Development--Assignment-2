@@ -1,0 +1,37 @@
+<section class="ui left aligned middle aligned segment" id="collection{{@index}}" enctype="multipart/form-data">
+  
+      <div class="ui card">
+        <div class="image">
+          <img src="{{picture}}">
+        </div>
+        <div class="content">
+          <a class="header">{{uppercase title}}</a>
+          <p>
+            <i class="music icon"></i>
+            {{#if medalist}}
+              Total medalists: {{medalist.length}}
+            {{else}}
+              Empty collection!
+            {{/if}}
+
+            {{#if date}}
+              <br>
+              <i class="calendar alternate outline icon"></i>
+              Created on <i>{{formatDate date}}</i>
+            {{/if}}
+          </p>
+        </div>
+        <div class="extra content">
+          <a href="/collection/{{id}}" class="ui icon button">
+            <i class="icon folder open"></i>
+          </a>
+          <a href="/dashboard/deletecollection/{{id}}" class="ui icon button">
+            <i class="icon trash"></i>
+          </a>
+          <button class="ui icon button" title="Edit collection" id="showEdit{{@index}}">
+            <i class="ui pencil icon"></i>
+          </button>
+        </div>
+      </div>
+  
+</section>

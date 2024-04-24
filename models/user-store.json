@@ -1,0 +1,91 @@
+{
+  "users": [
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
+    },
+    {
+      "firstName": "marge",
+      "lastName": "simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
+    },
+    {
+      "firstName": "Yi Jie",
+      "lastName": "Lim",
+      "email": "yijie.lim95@gmail.com",
+      "password": "1",
+      "id": "2d24ffb6-9a9a-4f9f-9e4f-011cd859a2ee"
+    },
+    {
+      "firstName": "testing",
+      "lastName": "lim",
+      "email": "test@gmail.com",
+      "password": "1",
+      "id": "ff220ef0-5883-4960-8a6a-3a65ae6f852a"
+    },
+    {
+      "firstName": "testing",
+      "lastName": "lim",
+      "email": "test@gmail.com",
+      "password": "1",
+      "id": "3ab272a5-75bf-4544-9e57-4c8c40cb6e58"
+    },
+    {
+      "firstName": "Yi Jie",
+      "lastName": "Lim",
+      "email": "yijie.lim59@gmail.com",
+      "password": "1",
+      "id": "a1094dae-fb7f-4ca3-a6a3-72512a9ce28b",
+      "picture": {
+        "name": "denmarks-viktor-axelsen-left-celebrates-victory-over-indias-lakshya-sen-in-the-mens-singles-final-during-day-five-of-the-yonex-all-england-open-badminton-championships-at-the-utilita-arena-birmingham-picture-date-sunday-march-20-2022-2J0RJN.jpg",
+        "data": {
+          "type": "Buffer",
+          "data": []
+        },
+        "size": 165268,
+        "encoding": "7bit",
+        "tempFilePath": "/app/tmp/tmp-3-1713547427867",
+        "truncated": false,
+        "mimetype": "image/jpeg",
+        "md5": "931b0ebf2f80711d76131ed5e227538b"
+      }
+    },
+    {
+      "firstName": "Yi Jie",
+      "lastName": "Lim",
+      "email": "yijie.lim59@gmail.com",
+      "password": "1",
+      "id": "e57312d2-9b29-44ee-95bd-14d88e834f63",
+      "picture": "http://res.cloudinary.com/web-app-dev-yj/image/upload/v1713547543/udpts9dvy89i6zr56nbi.jpg"
+    },
+    {
+      "firstName": "testing",
+      "lastName": "qq",
+      "email": "test1@gmail.com",
+      "password": "1",
+      "id": "0999b13e-bcd2-4315-9bf1-d9f97ab50c8d",
+      "picture": "http://res.cloudinary.com/web-app-dev-yj/image/upload/v1713547581/xqs1ngfhgdlbop6dywxs.png"
+    },
+    {
+      "firstName": "Yi Jie",
+      "lastName": "Lim",
+      "email": "yijie.lim95@gmail.com",
+      "password": "1",
+      "id": "aa83f43a-002c-4e01-8840-3ce9bfd420d3",
+      "picture": "http://res.cloudinary.com/web-app-dev-yj/image/upload/v1713547774/f6pjddhlnv6kkevnvhjt.png"
+    },
+    {
+      "firstName": "Yi Jie",
+      "lastName": "Lim",
+      "email": "test2@gmail.com",
+      "password": "2",
+      "id": "a1366953-8a1f-433f-b7ae-5d0e2e6951d1",
+      "picture": "http://res.cloudinary.com/web-app-dev-yj/image/upload/v1713547822/vw6h1hd5vop1ukcmogil.png"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+/* Base settings */
+html {
+  box-sizing: border-box; /* Apply a more intuitive box-sizing model */
+  font-size: 16px; /* Set base font size */
+}
+
+/* Ensure all elements inherit the box-sizing from html */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Body styling */
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif; /* Font family */
+  margin: 2em; /* Margin around the body */
+  background-image: url("https://cdn.glitch.global/e799acfb-e8fc-483d-a90e-2ac7ba0e364a/venue.jpg?v=1708792831438"); /* Background image */
+}
+
+/* Logo styling */
+.logo {
+  width: 75px; /* Width of the logo */
+  height: 75px; /* Height of the logo */
+  border-radius: 50%; /* Make logo circular */
+}
+
+/* Brand container styling */
+.brand-container{
+  display: flex; /* Use flex layout */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+/* Brand image styling */
+.brand {
+  width: 75px; /* Width of brand images */
+  height: 75px; /* Height of brand images */
+  border-radius: 50%; /* Make brand images circular */
+}
+
+/* General container styling */
+.container {
+  display: flex; /* Use flex layout */
+  justify-content: space-between; /* Distribute space between and around items */
+}
+
+/* Text container styling */
+.text-container {
+  flex: 1; /* Allow container to grow */
+}
+
+/* Images container styling */
+.images-container {
+  display: grid; /* Use grid layout */
+  grid-template-columns: repeat(2, 1fr); /* Two columns of equal width */
+  gap: 10px; /* Gap between grid items */
+  flex: 1; /* Allow container to grow */
+}
+
+/* Individual image styling */
+.images-content {
+  width: 200px; /* Width of images */
+  height: 250px; /* Height of images */
+  border-radius: 50%; /* Make images circular */
+}
+
+/* Text content styling */
+.text-content{
+  text-align:left; /* Align text to the left */
+}
+
+/* Button styling */
+.ui-button {
+  background-color: #4CAF50; /* Button background color */
+  color: white; /* Button text color */
+  padding: 10px 20px; /* Button padding */
+  margin: 5px 0; /* Button margin */
+  border: none; /* Remove button border */
+  cursor: pointer; /* Change cursor on hover */
+  transition: background-color 0.3s; /* Transition for background color */
+}
+
+/* Button hover effect */
+.ui-button:hover {
+  background-color: #45a049; /* Darken button on hover */
+}
+
+/* Like and unlike button styling */
+.like, .unlike {
+  font-size: 16px; /* Font size for like/unlike buttons */
+}
+
+/* Read more button styling */
+.read-more {
+  font-weight: bold; /* Make text bold */
+}
+
+/* Image below button styling */
+.button-below-image {
+  width: 400px; /* Width of the image */
+  height: 250px; /* Height of the image */
+}
+
+/* Styling for miscellaneous text */
+.others{
+  font-weight:bold; /* Make text bold */
+}
+
+/* Table styling */
+table {
+  width: 100%; /* Full width tables */
+  border-collapse: collapse; /* Collapse borders */
+  margin: 20px 0; /* Margin around tables */
+}
+
+/* Table header and cell styling */
+th, td {
+  border: 1px solid #dddddd; /* Border color */
+  text-align: center; /* Center text */
+  padding: 8px; /* Padding inside cells */
+}
+
+/* Table header styling */
+th {
+  background-color: #f2f2f2; /* Header background color */
+  color: #333333; /* Header text color */
+}
+
+/* Zebra striping for table rows */
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* Even rows background */
+}
+
+/* Hover effect for table rows */
+tr:hover {
+  background-color: #e8e8e8; /* Hover background color */
+}
+
+/* Cards container styling */
+.cards-container {
+  display: flex; /* Use flex layout */
+  justify-content: center; /* Center items horizontally */
+  gap: 20px; /* Gap between cards */
+  flex-wrap: wrap; /* Allow wrapping of cards */
+}
+
+/* Individual card styling */
+.ui-card {
+  width: 300px; /* Width of cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Hide overflow */
+  margin: 20px; /* Margin around cards */
+}
+
+/* Card image styling */
+.card-image {
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Card content styling */
+.card-content {
+  padding: 15px; /* Padding inside card content */
+}
+
+/* Card title styling */
+.card-title {
+  font-size: 18px; /* Font size */
+  font-weight: bold; /* Bold text */
+  margin-bottom: 10px; /* Margin below title */
+}
+
+/* Card description styling */
+.card-description {
+  font-size: 14px; /* Font size */
+  color: #555555; /* Text color */
+}
+
+/* Alignment styling for segment */
+.ui.center.aligned.middle.aligned.segment {
+  text-align: center; /* Center text */
+  padding: 20px; /* Padding inside segment */
+}
+
+.hide{
+    display: none;
+}
+
+.name{
+  padding-top:22.5px;
+  padding-right:5px;
+  line-height:20px;
+  font-weight:bold;
+  text-transform:capitalize;
+}
+
+.profilepic{
+  padding-top:15px;
+  padding-right:5px;
+  line-height:20px;
+  font-weight:bold;
+}

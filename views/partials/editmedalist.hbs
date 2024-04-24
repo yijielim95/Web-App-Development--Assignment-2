@@ -1,0 +1,52 @@
+<form class="ui stacked segment form" method="POST"
+      action="/collection/{{collectionId}}/updatemedalist/{{id}}" >
+  <tr class="hide" id="edit{{@index}}">
+    <td>
+      <span class="ui input">
+        <input type="text" name="name" autofocus required
+          title="Please include a valid Name" 
+		  placeholder="Name" value="{{name}}">
+      </span>
+    </td>
+    <td>
+      <span class="ui input">
+         <input type="text" name="age" required 
+           title = "Please include a valid Age" 
+      placeholder="Age"	value = "{{age}}">
+      </span>
+    </td>
+    <td>
+      <span class="ui input">
+        <input type="text" name="country" required
+          title="Please include a valid Country" 
+		  placeholder="Country" value="{{country}}">
+      </span>
+    </td>
+    <td>
+      <span class="ui input">
+        <input type="text" name="Awards" required
+          title="Please enter a valid awards" 
+		  placeholder="Awards" value="{{Awards}}">
+      </span>
+    </td>
+    <td>
+      <span class="ui input">
+        <input type="text" name="prize_money" required
+          title="Please enter a valid Prize" 
+		  placeholder="Prize" value="{{prize_money}}">
+      </span>
+    </td>
+    <td>
+      <button type = "reset" class="ui icon button" id="hideEdit{{@index}}"
+	          title="Exit without saving">
+        <i class="ui undo icon"></i>
+      </button>
+    </td>
+    <td>
+      <button type = "submit"  class="ui icon button" 
+	          title="Save changes">
+        <i class="ui save icon"></i>
+      </button>
+    </td>
+  </tr>
+</form>

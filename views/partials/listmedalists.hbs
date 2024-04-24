@@ -1,0 +1,48 @@
+<!-- Conditional check for the presence of medalists in the playlist -->
+{{#if medalist}}
+
+  <!-- Table structure for displaying medalists' details -->
+  <table class="ui striped table">
+    <thead>
+      <!-- Table header with column titles -->
+      <tr>
+        <th class="two wide">Medalists</th>
+        <th class="two wide">Age</th>
+        <th class="two wide">Country</th>
+        <th class="two wide">Awards Received</th>
+        <th class="two wide">Prize Money</th>
+        <th class="two wide">Edit</th>
+        <th class="two wide">Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      {{#each medalist}}
+      
+         {{> listOneMedalist collectionId=../id}}
+         {{> editmedalist collectionId=../id}}
+         
+        <script>
+              document.querySelector("#showEdit{{@index}}").addEventListener ('click', () => {
+                  document.querySelector("#medalist{{@index}}").style.display = "none";
+                  document.querySelector("#edit{{@index}}").style.display = "table-row";
+              })
+              document.querySelector("#hideEdit{{@index}}").addEventListener ('click', () => {
+                  document.querySelector("#medalist{{@index}}").style.display = "table-row";
+                  document.querySelector("#edit{{@index}}").style.display = "none";
+              })
+        </script>
+
+      
+      {{/each}}
+      
+    </tbody>
+  </table>
+    
+{{else}}
+  <!-- Message displayed if the playlist is empty -->
+  <h3 class="ui message">
+    Empty collection!
+  </h3>
+
+{{/if}}

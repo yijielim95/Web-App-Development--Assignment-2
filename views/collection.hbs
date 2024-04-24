@@ -1,0 +1,19 @@
+<!-- Menu placeholder -->
+{{> menu}}
+{{#with singleCollection}}
+<!-- Main content section -->
+<section class="ui center aligned middle aligned segment">
+  <!-- Playlist header with title and date -->
+  <h2 class="ui header">
+    {{uppercase title}} <!-- Dynamic title from singlePlaylist object -->
+    ({{date}}) <!-- Dynamic date from singlePlaylist object -->
+  </h2>
+  
+  <!-- Placeholder for listing medalists -->
+  {{> listmedalists}}
+  {{> addmedalist}}
+  
+ 
+  
+</section>
+{{/with}}

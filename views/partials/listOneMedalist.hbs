@@ -1,0 +1,28 @@
+<tr id="medalist{{@index}}">
+  <td>
+    {{capitalise name}}
+  </td>
+  <td>
+    {{age}}
+  </td>
+  <td>
+    {{capitalise country}}
+  </td>
+  <td>
+    {{capitalise Awards}}
+  </td>
+  <td>
+    {{prize_money}}
+  </td>
+  <td class="center aligned">
+    <button class="ui icon button" title="Edit medalist" id="showEdit{{@index}}">
+      <i class="ui pencil icon"></i>
+    </button>
+  </td>
+  <td class="center aligned">
+    <a href="/collection/{{collectionId}}/deletemedalist/{{id}}" 
+	   class="ui icon button"  title="Delete medalist">
+      <i class="ui trash icon"></i>
+    </a>
+  </td>
+</tr>
